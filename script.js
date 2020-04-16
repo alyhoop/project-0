@@ -10,8 +10,9 @@ const itemCountSpan = document.getElementById('item-count')
 const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 
+var clicks = 0;
 
 function newTodo() {
-  document.getElementById('item-count').textContent="newtext";
-
+  clicks += 1;
+  document.getElementById('item-count').innerHTML = clicks;
 }
