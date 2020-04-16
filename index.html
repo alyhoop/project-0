@@ -11,8 +11,11 @@
         <span>Item count: <span id="item-count">0</span></span>
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
+      <div class="reset">
+        <input type="reset" id="reset">
+        <label for="reset">Reset TODO</label>
+      </div>
       <button class="button center" onClick="newTodo()">New TODO</button>
-      <button class="button center" onClick="resetTodo()">Reset Item Count</button>
       <ul id="todo-list" class="todo-list"></ul>
     </div>
     <script src="./script.js"></script>
