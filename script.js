@@ -12,7 +12,6 @@ const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 
 function newTodo() {
-  var myObj = document.getElementById('item-count');
-  myObj.remove;
+  document.getElementById('item-count').textContent="newtext";
 
 }
