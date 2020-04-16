@@ -12,8 +12,8 @@
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
       <div class="reset">
-        <input type="reset" id="reset">
-        <label for="reset">Reset TODO</label>
+        <input type="checkbox" id="reset" name="reset" onClick="resetTodo()">
+        <label for="reset">Uncheck TODO</label>
       </div>
       <button class="button center" onClick="newTodo()">New TODO</button>
       <ul id="todo-list" class="todo-list"></ul>
