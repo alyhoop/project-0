@@ -16,3 +16,11 @@ function newTodo() {
   clicks += 1;
   document.getElementById('item-count').textContent = clicks;
 }
+
+var clicks = 0;
+
+function resetTodo() {
+  document.getElementById('item-count').textContent = 0;
+  clicks += 1;
+  document.getElementById('unchecked-count').textContent = clicks;
+}
