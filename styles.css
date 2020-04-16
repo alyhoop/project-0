@@ -6,7 +6,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(rgba(235, 181, 76, 0.76),rgba(199, 185, 89, 0.49));
+  background-image:
+    linear-gradient(rgba(235, 181, 76, 0.76),rgba(199, 185, 89, 0.49));
 }
 
 ul {
@@ -68,6 +69,12 @@ ul {
 }
 
 .reset {
+  margin-left: 15%;
+  padding: 2%;
+}
+
+.input-group {
+  display: flex;
   margin-left: 15%;
   padding: 2%;
 }
