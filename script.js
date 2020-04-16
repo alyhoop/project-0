@@ -14,5 +14,5 @@ var clicks = 0;
 
 function newTodo() {
   clicks += 1;
-  document.getElementById('item-count').innerHTML = clicks;
+  document.getElementById('item-count').textContent = clicks;
 }
