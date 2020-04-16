@@ -17,10 +17,14 @@ function newTodo() {
   document.getElementById('item-count').textContent = clicks;
 }
 
-var clicks = 0;
-
 function resetTodo() {
+  document.getElementById('unchecked-count').textContent =
+  document.getElementById('item-count').textContent;
+
   document.getElementById('item-count').textContent = 0;
-  clicks += 1;
-  document.getElementById('unchecked-count').textContent = clicks;
+}
+
+function totalReset() {
+  document.getElementById('item-count') = 0;
+  document.getElementById('unchecked-count') = 0;
 }
