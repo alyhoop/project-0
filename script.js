@@ -25,6 +25,6 @@ function resetTodo() {
 }
 
 function totalReset() {
-  document.getElementById('item-count') = 0;
-  document.getElementById('unchecked-count') = 0;
+  document.getElementById('item-count').textContent = 0;
+  document.getElementById('unchecked-count').textContent = 0;
 }
