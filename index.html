@@ -7,16 +7,16 @@
   <body>
     <div class="container center">
       <h1 class="center title">My TODO App</h1>
-      <div class="flow-right controls">
-        <span>Item count: <span id="item-count">0</span></span>
-        <span>Unchecked count: <span id="unchecked-count">0</span></span>
-      </div>
       <div class="list" id="list" aria-live="polite"></div>
         <form id="add-to-list">
           <label for="list-item">What do you want to add to your list?</label>
           <input type="text" id="list-item">
           <button onClick="newTodo()">Add to your list</button>
         </form>
+        <div class="flow-right controls">
+          <span>Item count: <span id="item-count">0</span></span>
+          <span>Unchecked count: <span id="unchecked-count">0</span></span>
+        </div>
       <button class="button center" onClick="totalReset()">Clear all</button>
     </div>
     <script src="./script.js"></script>
