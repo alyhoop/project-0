@@ -67,3 +67,9 @@ ul {
 .todo-container:first-of-type {
   border-top: 1px solid #333;
 }
+
+#add-to-list {
+  margin: 10%;
+  padding: 2%;
+  display: block;
+}
