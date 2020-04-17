@@ -70,6 +70,12 @@ ul {
 
 #add-to-list {
   margin: 10%;
-  padding: 2%;
+  padding: 1%;
   display: block;
+}
+
+#list {
+  display: block;
+  margin: 10%;
+  padding: 10%;
 }
