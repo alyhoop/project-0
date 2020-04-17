@@ -11,23 +11,13 @@
         <span>Item count: <span id="item-count">0</span></span>
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
-      <div class="reset">
-        <input type="checkbox" id="reset" name="reset" onClick="resetTodo()">
-        <label for="reset">Uncheck TODO</label>
-      </div>
-
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <div class="input-group-text">
-            <input type="checkbox" aria-label="Checkbox for following text input">
-          </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-      </div>
-
-      <button class="button center" onClick="newTodo()">New TODO</button>
+      <div id="list" aria-live="polite"></div>
+        <form id="add-to-list">
+          <label for="list-item">What do you want to add to your list?</label>
+          <input type="text" id="list-item">
+          <button>Add to your list</button>
+      </form>
       <button class="button center" onClick="totalReset()">Clear all</button>
-      <ul id="todo-list" class="todo-list"></ul>
     </div>
     <script src="./script.js"></script>
   </body>

@@ -67,14 +67,3 @@ ul {
 .todo-container:first-of-type {
   border-top: 1px solid #333;
 }
-
-.reset {
-  margin-left: 15%;
-  padding: 2%;
-}
-
-.input-group {
-  display: flex;
-  margin-left: 15%;
-  padding: 2%;
-}
