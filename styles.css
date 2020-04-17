@@ -69,13 +69,7 @@ ul {
 }
 
 #add-to-list {
-  margin: 10%;
-  padding: 1%;
+  margin: auto;
+  padding: auto;
   display: block;
-}
-
-#list {
-  display: block;
-  margin: 10%;
-  padding: 10%;
 }
