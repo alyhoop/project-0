@@ -36,7 +36,8 @@ var data = {
 var template = function () {
 
 	// If there are no list items
-	if (data.listItems.length < 1) return '<p><em>You do not have any list items yet. Try adding one with the form above.</em></p>';
+	if (data.listItems.length < 1) return
+  '<p><em>You do not have any list items yet. Try adding one with the form above.</em></p>';
 
 	// If there are
 	return '<ul>' + data.listItems.map(function (item) {
