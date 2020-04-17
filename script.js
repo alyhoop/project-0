@@ -17,16 +17,10 @@ function newTodo() {
   document.getElementById('item-count').textContent = clicks;
 }
 
-function resetTodo() {
-  document.getElementById('unchecked-count').textContent =
-  document.getElementById('item-count').textContent;
-
-  document.getElementById('item-count').textContent = 0;
-}
-
 function totalReset() {
   document.getElementById('item-count').textContent = 0;
   document.getElementById('unchecked-count').textContent = 0;
+  document.getElementById('list').textContent = ' ';
 }
 
 var data = {
@@ -51,7 +45,6 @@ var render = function () {
 	if (!list) return;
 	list.innerHTML = template();
 };
-
 
 /*!
  * Sanitize and encode all HTML in a user-submitted string
